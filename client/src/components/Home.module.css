@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,700&display=swap');
+
+html body {
+  background: url("../img/backpoke.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  position: relativa;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgb(16, 66, 100);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgba(247, 239, 239, 0.801);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(34, 32, 129);
+}
+.acomodar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem 6rem;
+  margin-top: 2rem;
+}
+
+.separar {
+  display: flex;
+  gap: 46rem;
+}
+.separacion {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3em;
+}
+
+.titulo {
+  color: rgb(236, 239, 38);
+    text-shadow: 5px 3px 5px rgb(32, 38, 119),
+      4px 2px 2px rgb(31, 34, 159);
+    font-size: 35px;
+}
+
+.letra {
+  color: rgb(126, 34, 34);
+  margin-left: 18em;
+}
